@@ -19,6 +19,10 @@
         .row__medium-8--smaller {
             width: 63%;
         }
+
+        .row__b-margin-until-medium {
+            margin-bottom: 0;
+        }
     }
 }
 
@@ -28,5 +32,9 @@
 
 .row--gutters > div {
     padding-right: 65px;
+}
+
+.row__b-margin-until-medium {
+    margin-bottom: 1rem;
 }
 
