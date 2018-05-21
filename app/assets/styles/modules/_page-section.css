@@ -10,3 +10,9 @@
     background-color: $mainBlue;
     color: #FFFFFF;
 }
+
+.page-section--testimonials {
+    background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
