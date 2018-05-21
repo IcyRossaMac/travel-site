@@ -6,13 +6,26 @@
     }
 }
 
+.page-section--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @mixin atMedium {
+        padding-bottom: 4.5rem;
+    }
+}
+
 .page-section--blue {
     background-color: $mainBlue;
     color: #FFFFFF;
 }
 
 .page-section--testimonials {
-    background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background-color: #e0e6ef;
+
+    @mixin atMedium {
+        background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+
 }
