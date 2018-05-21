@@ -9,9 +9,17 @@
 .page-section--no-b-padding-until-medium {
     padding-bottom: 0;
 
-    @mixin atMedium {
+    @mixin atLarge {
         padding-bottom: 4.5rem;
     }
+}
+
+.page-section--no-b-padding-until-large {
+    padding-bottom: 0;
+
+@mixin atMedium {
+    padding-bottom: 4.5rem;
+}
 }
 
 .page-section--blue {
@@ -22,7 +30,7 @@
 .page-section--testimonials {
     background-color: #e0e6ef;
 
-    @mixin atMedium {
+    @mixin atLarge {
         background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
         -webkit-background-size: cover;
         background-size: cover;

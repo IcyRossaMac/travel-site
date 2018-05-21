@@ -29,6 +29,35 @@
             margin-bottom: 0;
         }
     }
+
+    @mixin atLarge {
+        .row__large-4 {
+            float: left;
+            width: 33.33%;
+        }
+
+        .row__large-4--larger {
+            width: 37%;
+        }
+
+        .row__large-6 {
+            float: left;
+            width: 50%;
+        }
+
+        .row__large-8 {
+            float: left;
+            width: 66.66%;
+        }
+
+        .row__large-8--smaller {
+            width: 63%;
+        }
+
+        .row__b-margin-until-large {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .row--gutters {
@@ -71,6 +100,17 @@
 }
 
 .row--equal-height-at-medium > div {
+    float: none;
+    display: flex;
+}
+
+.row--equal-height-at-large {
+@mixin atLarge {
+    display: flex;
+}
+}
+
+.row--equal-height-at-large > div {
     float: none;
     display: flex;
 }
