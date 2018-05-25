@@ -1349,6 +1349,13 @@ Instead edit gulp/templates/sprite */
 
 @media (min-width: 800px) {
 
+.primary-nav a.is-current-link {
+        color: #fabb69
+}
+    }
+
+@media (min-width: 800px) {
+
 .primary-nav--pull-right {
         float: right
 }
