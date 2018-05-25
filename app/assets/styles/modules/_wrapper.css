@@ -11,6 +11,10 @@
     max-width: 976px;
 }
 
+.wrapper--narrow {
+    max-width: 470px;
+}
+
 .wrapper .wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -38,8 +42,8 @@
     padding-left: 0;
     padding-right: 0;
 
-@mixin atLarge {
-    padding-left: 18px;
-    padding-right: 18px;
-}
+    @mixin atLarge {
+        padding-left: 18px;
+        padding-right: 18px;
+    }
 }
