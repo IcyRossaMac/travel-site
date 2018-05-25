@@ -11,6 +11,7 @@
     position: relative;
 
     @mixin atSmall {
+        margin: 0 5px;
         width: 72px;
     }
 }
@@ -18,7 +19,6 @@
 .social-icons__icon .icon {
     display: block;
     position: absolute;
-    margin: 0 5px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
