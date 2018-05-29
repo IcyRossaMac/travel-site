@@ -33,7 +33,7 @@
 
 .page-section--testimonials.lazyloaded {
     @mixin atLarge {
-        background: url("/assets/images/testimonials-bg.jpg") top center no-repeat;
+        background: url("../../assets/images/testimonials-bg.jpg") top center no-repeat;
         background-size: cover;
     }
 }
